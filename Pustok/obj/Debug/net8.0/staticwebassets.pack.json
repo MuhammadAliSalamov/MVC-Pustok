@@ -1,0 +1,741 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\css\\maps\\main.css.map",
+      "PackagePath": "staticwebassets\\css\\maps\\main.css.map"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\css\\maps\\plugins.min.css.map",
+      "PackagePath": "staticwebassets\\css\\maps\\plugins.min.css.map"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\css\\pages\\_faq.css",
+      "PackagePath": "staticwebassets\\css\\pages\\_faq.css"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\css\\pages\\_order-complete.css",
+      "PackagePath": "staticwebassets\\css\\pages\\_order-complete.css"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\css\\plugins.css"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\css\\rrrrrrrr.css",
+      "PackagePath": "staticwebassets\\css\\rrrrrrrr.css"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\Ionicons.eot",
+      "PackagePath": "staticwebassets\\fonts\\Ionicons.eot"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\Ionicons.svg",
+      "PackagePath": "staticwebassets\\fonts\\Ionicons.svg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\Ionicons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Ionicons.ttf"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\Ionicons.woff",
+      "PackagePath": "staticwebassets\\fonts\\Ionicons.woff"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\best-seller-bg.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\best-seller-bg.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\home-2-slider-1.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\home-2-slider-1.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\home-2-slider-2.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\home-2-slider-2.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\home-3-slider-1.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\home-3-slider-1.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\home-3-slider-2.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\home-3-slider-2.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\home-4-slider-1.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\home-4-slider-1.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\home-4-slider-2.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\home-4-slider-2.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\home-slider-1-ai.png",
+      "PackagePath": "staticwebassets\\image\\bg-images\\home-slider-1-ai.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\home-slider-1.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\home-slider-1.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\home-slider-2-ai.png",
+      "PackagePath": "staticwebassets\\image\\bg-images\\home-slider-2-ai.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\home-slider-2.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\home-slider-2.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\promo-banner-contained-WT.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\promo-banner-contained-WT.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\promo-banner-contained.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\promo-banner-contained.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\promo-banner-full.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\promo-banner-full.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\promo-banner-mid.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\promo-banner-mid.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\promo-banner-small-with-text.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\promo-banner-small-with-text.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\promo-banner-small.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\promo-banner-small.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\promo-banner-with-text-2--small.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\promo-banner-with-text-2--small.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\promo-banner-with-text-2.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\promo-banner-with-text-2.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\promo-banner-with-text-big.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\promo-banner-with-text-big.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\bg-images\\promo-banner-with-text.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\promo-banner-with-text.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\favicon.ico",
+      "PackagePath": "staticwebassets\\image\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\icon\\author-logo.png",
+      "PackagePath": "staticwebassets\\image\\icon\\author-logo.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\icon\\eng-flag.png",
+      "PackagePath": "staticwebassets\\image\\icon\\eng-flag.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\icon\\germany-flag.png",
+      "PackagePath": "staticwebassets\\image\\icon\\germany-flag.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\icon\\grid-4.png",
+      "PackagePath": "staticwebassets\\image\\icon\\grid-4.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\icon\\payment.png",
+      "PackagePath": "staticwebassets\\image\\icon\\payment.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\icon\\policy-icon-1.png",
+      "PackagePath": "staticwebassets\\image\\icon\\policy-icon-1.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\icon\\policy-icon-2.png",
+      "PackagePath": "staticwebassets\\image\\icon\\policy-icon-2.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\icon\\policy-icon-3.png",
+      "PackagePath": "staticwebassets\\image\\icon\\policy-icon-3.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\icon\\quotation.png",
+      "PackagePath": "staticwebassets\\image\\icon\\quotation.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\icon\\title-sep-icon.png",
+      "PackagePath": "staticwebassets\\image\\icon\\title-sep-icon.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\logo--footer.png",
+      "PackagePath": "staticwebassets\\image\\logo--footer.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\logo.png",
+      "PackagePath": "staticwebassets\\image\\logo.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\best-seller-author.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\best-seller-author.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\blog-grid-1.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\blog-grid-1.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\blog-grid-2.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\blog-grid-2.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\blog-grid-3.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\blog-grid-3.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\blog-grid-4.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\blog-grid-4.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\blog-img-big-1.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\blog-img-big-1.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\blog-img-big-2.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\blog-img-big-2.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\blog-img-big-3.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\blog-img-big-3.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\blog-img-big-4.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\blog-img-big-4.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\blog-list-1.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\blog-list-1.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\blog-list-2.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\blog-list-2.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\blog-list-3.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\blog-list-3.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\blog-list-4.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\blog-list-4.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\brand-1.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\brand-1.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\brand-2.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\brand-2.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\brand-3.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\brand-3.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\brand-4.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\brand-4.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\brand-5.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\brand-5.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\brand-6.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\brand-6.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\cat-gal-large.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\cat-gal-large.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\cat-gal-large.png",
+      "PackagePath": "staticwebassets\\image\\others\\cat-gal-large.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\cat-gal-mid-2.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\cat-gal-mid-2.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\cat-gal-mid-2.png",
+      "PackagePath": "staticwebassets\\image\\others\\cat-gal-mid-2.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\cat-gal-mid.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\cat-gal-mid.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\cat-gal-mid.png",
+      "PackagePath": "staticwebassets\\image\\others\\cat-gal-mid.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\cat-gal-small-2.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\cat-gal-small-2.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\cat-gal-small.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\cat-gal-small.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\cat-gal-small.png",
+      "PackagePath": "staticwebassets\\image\\others\\cat-gal-small.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\client-1.png",
+      "PackagePath": "staticwebassets\\image\\others\\client-1.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\client-2.png",
+      "PackagePath": "staticwebassets\\image\\others\\client-2.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\client-3.png",
+      "PackagePath": "staticwebassets\\image\\others\\client-3.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\client-4.png",
+      "PackagePath": "staticwebassets\\image\\others\\client-4.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\client-5.png",
+      "PackagePath": "staticwebassets\\image\\others\\client-5.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\home-blog-1.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\home-blog-1.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\home-blog-2.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\home-blog-2.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\home-side-promo.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\home-side-promo.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\product-promo-3.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\product-promo-3.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\product-promo-4.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\product-promo-4.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\others\\product-promo-5.jpg",
+      "PackagePath": "staticwebassets\\image\\others\\product-promo-5.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\cart-product-1.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\cart-product-1.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\cart-product-2.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\cart-product-2.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\cart-product-3.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\cart-product-3.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-1.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-1.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-1.png",
+      "PackagePath": "staticwebassets\\image\\products\\product-1.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-10.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-10.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-11.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-11.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-12.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-12.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-13.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-13.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-14.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-14.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-15.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-15.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-16.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-16.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-17.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-17.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-2.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-2.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-2.png",
+      "PackagePath": "staticwebassets\\image\\products\\product-2.png"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-3.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-3.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-4.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-4.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-5.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-5.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-6.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-6.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-7.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-7.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-8.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-8.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-9.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-9.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-details-1.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-details-1.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-details-2.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-details-2.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-details-3.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-details-3.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-details-4.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-details-4.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-details-5.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\product-details-5.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\js\\ajax-mail.js",
+      "PackagePath": "staticwebassets\\js\\ajax-mail.js"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\php\\mail.php",
+      "PackagePath": "staticwebassets\\php\\mail.php"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\base\\_common.scss",
+      "PackagePath": "staticwebassets\\scss\\base\\_common.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\base\\_fonts.scss",
+      "PackagePath": "staticwebassets\\scss\\base\\_fonts.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\base\\_reset.scss",
+      "PackagePath": "staticwebassets\\scss\\base\\_reset.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\components\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_card.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\components\\_color.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_color.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\components\\_countdown.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_countdown.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\components\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_images.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\components\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_modal.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\components\\_products.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_products.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\components\\_sliders.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_sliders.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\components\\_tabs.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_tabs.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\components\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_typography.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\helpers\\_media-query.scss",
+      "PackagePath": "staticwebassets\\scss\\helpers\\_media-query.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\helpers\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\helpers\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\helpers\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\helpers\\_variables.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\main.scss",
+      "PackagePath": "staticwebassets\\scss\\main.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\pages\\_blog-details.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_blog-details.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\pages\\_blog.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_blog.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\pages\\_cart.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_cart.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\pages\\_checkout.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_checkout.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\pages\\_compare.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_compare.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\pages\\_contact.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_contact.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\pages\\_faq.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_faq.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\pages\\_home.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_home.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\pages\\_login-register.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_login-register.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\pages\\_my-account.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_my-account.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\pages\\_order-complete.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_order-complete.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\pages\\_product-details.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_product-details.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\pages\\_shop.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_shop.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\sections\\_best-seller-block.scss",
+      "PackagePath": "staticwebassets\\scss\\sections\\_best-seller-block.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\sections\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\sections\\_breadcrumb.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\sections\\_comment.scss",
+      "PackagePath": "staticwebassets\\scss\\sections\\_comment.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\sections\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\sections\\_footer.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\sections\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\sections\\_header.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\sections\\_hero-area.scss",
+      "PackagePath": "staticwebassets\\scss\\sections\\_hero-area.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\sections\\_home-features.scss",
+      "PackagePath": "staticwebassets\\scss\\sections\\_home-features.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\sections\\_layout.scss",
+      "PackagePath": "staticwebassets\\scss\\sections\\_layout.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\sections\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\scss\\sections\\_sidebar.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\sections\\_testimonial.scss",
+      "PackagePath": "staticwebassets\\scss\\sections\\_testimonial.scss"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\scss\\sections\\_welcome.scss",
+      "PackagePath": "staticwebassets\\scss\\sections\\_welcome.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Pustok.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Pustok.props",
+      "PackagePath": "build\\Pustok.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Pustok.props",
+      "PackagePath": "buildMultiTargeting\\Pustok.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Pustok.props",
+      "PackagePath": "buildTransitive\\Pustok.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
