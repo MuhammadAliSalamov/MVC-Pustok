@@ -1,0 +1,28 @@
+@using Pustok.Areas.Admin.ViewModels.Category
+@model CreateCategoryVM
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Add Category</h4>
+                <form class="forms-sample" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label asp-for="Name">Name</label>
+                        <input asp-for="Name" type="text" class="form-control" placeholder="Name">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Description">Description</label>
+                        <input asp-for="Description" type="text" class="form-control" placeholder="Description">
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary me-2">Submit</button>
+                    <a asp-action="Index" class="btn btn-light">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
