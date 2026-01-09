@@ -105,7 +105,7 @@ public class CategoryController : Controller
     }
     public async Task<IActionResult> Details(int id)
     {
-        var category = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
+        var category = await _context.Categories.Include(c => c.Products).FirstOrDefaultAsync(c => c.Id == id);
         if (category == null) return NotFound();
         
         return View(category);

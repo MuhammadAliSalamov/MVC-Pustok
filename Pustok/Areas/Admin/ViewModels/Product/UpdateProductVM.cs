@@ -12,7 +12,9 @@ public class UpdateProductVM : BaseEntityVM
     [MaxLength(500, ErrorMessage = "Description length must not exceed 500 characters")]
     public string? Description { get; set; }
     [Required(ErrorMessage = "Price is required")]
-    public decimal? Price { get; set; }
+    public decimal Price { get; set; }
     public string? ImageUrl { get; set; }
     public IFormFile? ImageFile { get; set; }
+    [Required(ErrorMessage = "Please select a category")]
+    public int CategoryId { get; set; }
 }

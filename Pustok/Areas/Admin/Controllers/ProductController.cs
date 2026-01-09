@@ -23,12 +23,14 @@ public class ProductController : Controller
     public async Task<IActionResult> Index()
     {
 
-        var dbProducts = await _context.Products.ToListAsync();
+        var dbProducts = await _context.Products.Include(p => p.Category).ToListAsync();
         return View(dbProducts);
     }
 
-    public IActionResult Create()
+    [HttpGet]
+    public async Task<IActionResult> Create()
     {
+        ViewBag.Categories = await _context.Categories.ToListAsync();
         return View();
     }
 
@@ -62,6 +64,7 @@ public class ProductController : Controller
             Name = createProduct.Name,
             Description = createProduct.Description,
             Price = createProduct.Price,
+            CategoryId = createProduct.CategoryId,
             ImageUrl = await createProduct.ImageFile.CreateFile(_env.WebRootPath, "image", "products")
         };
 
@@ -76,12 +79,15 @@ public class ProductController : Controller
         var product = await _context.Products.FindAsync(id);
         if (product == null) return NotFound();
 
+        ViewBag.Categories = await _context.Categories.ToListAsync();
+
         UpdateProductVM updateProduct = new UpdateProductVM
         {
             Id = product.Id,
             Name = product.Name,
             Description = product.Description,
             Price = product.Price,
+            CategoryId = product.CategoryId,
             ImageUrl = product.ImageUrl
         };
         return View(updateProduct);
@@ -92,11 +98,14 @@ public class ProductController : Controller
     public async Task<IActionResult> Edit(int id, UpdateProductVM updateProduct)
     {
         if (id != updateProduct.Id) return BadRequest();
-        if (!ModelState.IsValid) return View(updateProduct);
+        if (!ModelState.IsValid)
+        {
+            ViewBag.Categories = await _context.Categories.ToListAsync();
+            return View(updateProduct);
+        }
 
         Product product = await _context.Products.FindAsync(id);
         if (product == null) return NotFound();
-
         if (updateProduct.ImageFile != null)
         {
             if (!updateProduct.ImageFile.ValidateType("image/"))
@@ -116,7 +125,8 @@ public class ProductController : Controller
 
         product.Name = updateProduct.Name;
         product.Description = updateProduct.Description;
-        product.Price = (decimal)updateProduct.Price;
+        product.Price = updateProduct.Price;
+        product.CategoryId = updateProduct.CategoryId; // Обновляем категорию
 
         _context.Products.Update(product);
         await _context.SaveChangesAsync();

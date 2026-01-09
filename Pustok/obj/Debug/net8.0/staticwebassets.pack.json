@@ -7853,6 +7853,10 @@
       "PackagePath": "staticwebassets\\image\\others\\product-promo-5.jpg"
     },
     {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\1392a601-d044-4a78-973c-d2b6a1e3e4d0stic2.png",
+      "PackagePath": "staticwebassets\\image\\products\\1392a601-d044-4a78-973c-d2b6a1e3e4d0stic2.png"
+    },
+    {
       "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\1cb9ea28-473b-48ed-a068-7c6bbe93e4e5a2-420x430.jpg",
       "PackagePath": "staticwebassets\\image\\products\\1cb9ea28-473b-48ed-a068-7c6bbe93e4e5a2-420x430.jpg"
     },
@@ -7861,12 +7865,16 @@
       "PackagePath": "staticwebassets\\image\\products\\223eeaca-24f1-42d5-ac0c-04f345fea726fullimage1.jpg"
     },
     {
-      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\4febd3db-a6bf-4688-91e9-9cf77928bddbfullimage1.jpg",
-      "PackagePath": "staticwebassets\\image\\products\\4febd3db-a6bf-4688-91e9-9cf77928bddbfullimage1.jpg"
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\3b51baef-f102-4a59-b53c-6cc641176d1e2764-fe0f.png",
+      "PackagePath": "staticwebassets\\image\\products\\3b51baef-f102-4a59-b53c-6cc641176d1e2764-fe0f.png"
     },
     {
       "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\669646fc-25bf-44e1-845a-1ea698d8e4baa2-420x430.jpg",
       "PackagePath": "staticwebassets\\image\\products\\669646fc-25bf-44e1-845a-1ea698d8e4baa2-420x430.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\aec377d1-846a-4d11-aee4-2dfd7675c3b9fullimage1.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\aec377d1-846a-4d11-aee4-2dfd7675c3b9fullimage1.jpg"
     },
     {
       "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\c3d12bf5-69e7-48e2-871c-feff23d78d69a2-420x430.jpg",
@@ -7883,6 +7891,10 @@
     {
       "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\cart-product-3.jpg",
       "PackagePath": "staticwebassets\\image\\products\\cart-product-3.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\d475626d-7ac6-4d14-b96c-e299942f4aacангелочек.png",
+      "PackagePath": "staticwebassets\\image\\products\\d475626d-7ac6-4d14-b96c-e299942f4aacангелочек.png"
     },
     {
       "Id": "E:\\Code Academy\\SomeRandomTask\\Pustok\\wwwroot\\image\\products\\product-1.jpg",

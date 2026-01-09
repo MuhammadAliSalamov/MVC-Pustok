@@ -11,4 +11,5 @@ public class Category : BaseEntity
     [Required(ErrorMessage = "Description is required")]
     [MaxLength(500, ErrorMessage = "Description length must not exceed 500 characters")]
     public string? Description { get; set; }
+    public ICollection<Product>? Products { get; set; }
 }

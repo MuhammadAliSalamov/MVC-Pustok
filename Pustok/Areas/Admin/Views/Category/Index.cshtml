@@ -1,56 +1,67 @@
 @using Pustok.Areas.Admin.Models
- @model IEnumerable<Pustok.Areas.Admin.Models.Category>
+@model IEnumerable<Pustok.Areas.Admin.Models.Category>
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
-            <!-- Begin Page Content -->
-            <div class="container-fluid">
- <!-- Begin Page Content -->
-                <div class="container-fluid">
+<!-- Begin Page Content -->
+<div class="container-fluid">
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
 
-                    <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Tables</h1>
-                    <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-                        For more information about DataTables, please visit the <a target="_blank"
-                            href="https://datatables.net">official DataTables documentation</a>.</p>
+        <!-- Page Heading -->
+        <h1 class="h3 mb-2 text-gray-800">Tables</h1>
+        <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
+            For more information about DataTables, please visit the <a target="_blank"
+                href="https://datatables.net">official DataTables documentation</a>.</p>
 
-                    <!-- DataTales Example -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
-                            <a asp-controller="Category" asp-action="Create" class="btn btn-sm btn-success">Add category</a>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>ID</th>
-                                            <th>Name</th>
-                                            <th>Actions</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @foreach (Category category in Model)
-                                        {
-                                            <tr>
-                                                <td>@category.Id</td>
-                                                <td>@category.Name</td>
-                                                <td class ="d-flex justify-content-around">
-                                                    <a asp-controller="Category" asp-action="Delete" asp-route-id="@category.Id" class="btn btn-sm btn-danger">Delete</a>
-                                                    <a asp-controller="Category" asp-action="Edit" asp-route-id="@category.Id" class="btn btn-sm btn-warning">Update</a>
-                                                    <a asp-controller="Category" asp-action="Details" asp-route-id="@category.Id" class="btn btn-sm btn-info">Details</a>
-                                                </td>
-                                            </tr>
-                                        }
-                                        
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- /.container-fluid -->
-
+        <!-- DataTales Example -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+                <a asp-controller="Category" asp-action="Create" class="btn btn-sm btn-success">Add category</a>
             </div>
-            <!-- End of Main Content -->
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Category category in Model)
+                            {
+                                <tr>
+                                    <td class="align-middle">@category.Id</td>
+                                    <td class="align-middle">@category.Name</td>
+                                    <td class="align-middle">
+                                        <div class="d-flex justify-content-around align-items-center" style="gap: 8px;">
+                                            <a asp-action="Edit" asp-route-id="@category.Id" class="btn btn-sm btn-warning">
+                                                <i class="fas fa-pencil-alt"></i>
+                                            </a>
+                                            <a asp-action="Details" asp-route-id="@category.Id" class="btn btn-sm btn-info">
+                                                <i class="fas fa-eye"></i>
+                                            </a>
+                                            <form asp-action="Delete" asp-route-id="@category.Id" method="post"
+                                                onsubmit="return confirm('Are you sure?')" class="m-0">
+                                                <button type="submit" class="btn btn-sm btn-danger">
+                                                    <i class="fas fa-trash"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container-fluid -->
+
+</div>
+<!-- End of Main Content -->

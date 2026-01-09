@@ -14,4 +14,7 @@ public class CreateProductVM : BaseEntityVM
         [Required(ErrorMessage = "Price is required")]
     public decimal Price { get; set; }
     public IFormFile ImageFile { get; set; }
+    [Required(ErrorMessage = "Please select a category")]
+    public int CategoryId { get; set; }
+    
 }
